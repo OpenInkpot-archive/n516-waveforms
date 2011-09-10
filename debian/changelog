@@ -1,3 +1,9 @@
+n516-waveforms (0.2) zelazny; urgency=low
+
+  * Add package for PRS505.
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Sat, 10 Sep 2011 19:02:23 +0200
+
 n516-waveforms (0.1) asimov; urgency=low
 
   * First build for IPlinux.
