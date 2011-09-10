@@ -2,6 +2,7 @@ Source: n516-waveforms
 Section: core
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@openinkpot.org>
+Uploaders: Alexander Kerner <lunohod@openinkpot.org>
 Build-Depends: debhelper (>= 7)
 XCS-Cross-Host-Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.0
@@ -9,5 +10,10 @@ Standards-Version: 3.8.0
 Package: n516-waveforms
 Architecture: all
 Depends: ubi-support
+Description: Bootsplash support for sysvinit
+ This package provides hooks for sysvinit to enable drawing boot splash.
+
+Package: prs505-waveforms
+Architecture: all
 Description: Bootsplash support for sysvinit
  This package provides hooks for sysvinit to enable drawing boot splash.
